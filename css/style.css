@@ -1,0 +1,35 @@
+section{
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.parent{
+    position: relative;
+    width: 400px;
+    height: 250px;
+    background: yellowgreen;
+}
+
+.child{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 60px;
+    line-height: 100px;
+    color: white;
+}
+
+.child1{
+    background: darkblue;
+  right: 0px;
+  bottom: 0;
+    z-index: 1;
+
+}
+
+.child2{
+    background: rgb(57, 57, 58);
+  
+    
+}
